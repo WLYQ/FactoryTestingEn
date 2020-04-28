@@ -1,0 +1,476 @@
+{
+    "Success": true,
+    "data": [
+        {
+            "name": "Unlock",
+            "cmd": "@@IMEI,S202,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/开锁.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        },
+        {
+            "name": "Lock",
+            "cmd": "@@IMEI,S302,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/锁车.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        },
+        {
+            "name": "ACC-ON",
+            "cmd": "@@IMEI,S326,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/ACC%E5%85%B3%E9%97%AD.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        },
+        {
+            "name": "ACC-OFF",
+            "cmd": "@@IMEI,S327,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/ACC关闭.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        },
+        {
+            "name": "OpenBaterryBox",
+            "cmd": "@@IMEI,S328,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/电池仓.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        },
+        {
+            "name": "BellRing",
+            "cmd": "@@IMEI,S203,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/响铃.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        },
+        {
+            "name": "GetDeviceStatus",
+            "cmd": "@@IMEI,S201,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/锁状态.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        },
+        {
+            "name": "RebootDevice",
+            "cmd": "@@IMEI,S900,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/重启.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        },
+        {
+            "name": "PlayVoice",
+            "cmd": "@@IMEI,S207,TXT0,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/语音.png",
+            "type": "setting",
+            "valueNum": 1,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "VoiceText",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                }
+            ]
+        },
+        {
+            "name": "SetVoiceText",
+            "cmd": "@@IMEI,S208,TXT0,TXT1,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/语音文字.png",
+            "type": "setting",
+            "valueNum": 2,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "SerialNumber",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                },
+                {
+                    "name": "VoiceText",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                }
+            ]
+        },
+        {
+            "name": "SetVolume",
+            "cmd": "@@IMEI,S209,TXT0,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/语音音量.png",
+            "type": "setting",
+            "valueNum": 1,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "SelectVolume",
+                    "type": "select",
+                    "option": [
+                        "0",
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ],
+                    "optionName": [
+                        "0",
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "ChangeServer",
+            "cmd": "@@IMEI,S301,TXT0,TXT1,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/更改服务器.png",
+            "type": "setting",
+            "valueNum": 2,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "ip",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                },
+                {
+                    "name": "ServerPort",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                }
+            ]
+        },
+        {
+            "name": "AlarmSwitchWithVibration",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/是否.png",
+            "cmd": "@@IMEI,S303,TXT0,123,USER&&",
+            "type": "setting",
+            "valueNum": 1,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "Options",
+                    "type": "select",
+                    "option": [
+                        "0",
+                        "1"
+                    ],
+                    "optionName": [
+                        "ON",
+                        "OFF"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "ChangeGPSReturnTime",
+            "cmd": "@@IMEI,S304,TXT0,TXT1,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/GPS回报时间.png",
+            "type": "setting",
+            "valueNum": 2,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "LockTime(s)",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                },
+                {
+                    "name": "UnlockTime(s)",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                }
+            ]
+        },
+        {
+            "name": "ChangeHeartbeatInterval",
+            "cmd": "@@IMEI,S307,TXT0,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/心跳.png",
+            "type": "setting",
+            "valueNum": 1,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "HeartbeatInterval(s)",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                }
+            ]
+        },
+        {
+            "name": "ChangeGPSPre-openingTime",
+            "cmd": "@@IMEI,S308,TXT0,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/预开.png",
+            "type": "setting",
+            "valueNum": 1,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "GPSPre-openingTime(s)",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                }
+            ]
+        },
+        {
+            "name": "SetupVibrationDetection",
+            "cmd": "@@IMEI,S311,TXT0,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/抖动.png",
+            "type": "setting",
+            "valueNum": 1,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "switch",
+                    "type": "select",
+                    "option": [
+                        "0",
+                        "1"
+                    ],
+                    "optionName": [
+                        "OFF",
+                        "ON"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "SetupRegionalLock",
+            "cmd": "@@IMEI,S312,TXT0,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/设置区域锁.png",
+            "type": "setting",
+            "valueNum": 1,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "Options",
+                    "type": "select",
+                    "option": [
+                        "0",
+                        "1"
+                    ],
+                    "optionName": [
+                        "Ordinary",
+                        "Regional"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "SetRegionalLockCanBeLocked",
+            "cmd": "@@IMEI,S313,TXT0,TXT1,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/区域.png",
+            "type": "setting",
+            "valueNum": 2,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "LatencyTime(s)",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                },
+                {
+                    "name": "RingCount",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                }
+            ]
+        },
+        {
+            "name": "CheckRegionalLockMode",
+            "cmd": "@@IMEI,S314,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/查询区域锁模式.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        },
+        {
+            "name": "SetBluetoothKey",
+            "cmd": "@@IMEI,S318,TXT0,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/设置蓝牙秘钥.png",
+            "type": "setting",
+            "valueNum": 1,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "BluetoothKey",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                }
+            ]
+        },
+        {
+            "name": "SetBluetoothKey",
+            "cmd": "@@IMEI,S319,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/查询锁模式.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        },
+        {
+            "name": "Set Bluetooth scan time",
+            "cmd": "@@IMEI,S320,TXT0,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/设置蓝牙桩参数（扫描时长）.png",
+            "type": "setting",
+            "valueNum": 1,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "Scanning duration",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                }
+            ]
+        },
+        {
+            "name": "Set scan interval of Bluetooth post",
+            "cmd": "@@IMEI,S321,TXT0,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/扫描间隔.png",
+            "type": "setting",
+            "valueNum": 1,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "second",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                }
+            ]
+        },
+        {
+            "name": "Set whether Bluetooth post is scanned",
+            "cmd": "@@IMEI,S322,TXT0,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/是否.png",
+            "type": "setting",
+            "valueNum": 1,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "option",
+                    "type": "select",
+                    "option": [
+                        "0",
+                        "1"
+                    ],
+                    "optionName": [
+                        "No scan",
+                        "scanning"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Set Bluetooth post name",
+            "cmd": "@@IMEI,S323,TXT0,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/%E8%93%9D%E7%89%99%E6%A1%A9%E5%90%8D%E7%A7%B0.png",
+            "type": "setting",
+            "valueNum": 1,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "Bluetooth name",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                }
+            ]
+        },
+        {
+            "name": "Query Bluetooth post parameters",
+            "cmd": "@@IMEI,S324,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/参数.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        },
+        {
+            "name": "Issue command to scan Bluetooth post",
+            "cmd": "@@IMEI,S325,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/蓝牙桩指令.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        },
+        {
+            "name": "FOTA",
+            "cmd": "@@IMEI,S200,TXT0,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/升级.png",
+            "type": "setting",
+            "valueNum": 1,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "FOTA Url",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                }
+            ]
+        },
+        {
+            "name": "SetTyrePerimeter",
+            "cmd": "@@IMEI,S309,TXT0,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/轮胎.png",
+            "type": "setting",
+            "valueNum": 1,
+            "usable": true,
+            "parameter": [
+                {
+                    "name": "SetTyrePerimeter",
+                    "type": "TXT",
+                    "option": [],
+                    "optionName": []
+                }
+            ]
+        },
+        {
+            "name": "FactoryMode",
+            "cmd": "@@IMEI,S310,123,USER&&",
+            "imgUrl": "https://gitee.com/jiejiedu95/FactoryTesting/raw/master/drawable-hdpi/进出厂模式.png",
+            "type": "instructions",
+            "valueNum": 0,
+            "usable": true,
+            "parameter": []
+        }
+    ]
+}
